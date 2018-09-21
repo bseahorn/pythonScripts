@@ -11,4 +11,4 @@ print(addr1, addr2)
 
 domain='microsoft.com'
 for x in dns.resolver.query(domain,'MX'):
- print x.to_text()
+ print(x.to_text())
